@@ -60,7 +60,7 @@
     <!-- END HERO AREA -->
 
     <!-- CONTAINER FOR TRENDING GIF POSTS -->
-     <div class="container-fluid tm-container-content tm-mt-60">
+    <div class="container-fluid tm-container-content tm-mt-60">
         <div class="row mb-4">
             <h4 class="col-6 tm-text-primary">
                 Trending <i class="fi fi-br-arrow-trend-up"></i>
@@ -71,6 +71,30 @@
         </div> <!-- row -->
     </div> <!-- container-fluid, tm-container-content -->
     <!-- END TRENDING GIFS SECTION -->
+
+    <!-- CONTAINER AREA FOR SEACH RESULTS -->
+    <div class="container-fluid tm-container-content tm-mt-60">
+        <div class="row mb-4">
+            <h4 class="col-6 tm-text-primary">
+                Total results for &#x1F50D<span class="search_term"></span>: <span class="result_count"></span>
+            </h4>
+        </div>
+        <div class="row tm-mb-10 tm-gallery" id="gifContainer">
+            <div id="noSearchMessage">
+                <p>Please make a search to see results. &#x1F50D;</p>
+            </div>
+        </div> <!-- row -->
+        <div class="shadow load_class" id="load_class">
+            <div class="loader">
+                <div class="item top"></div>
+                <div class="item left"></div>
+                <div class="item right"></div>
+                <div class="item bottom"></div>
+            </div>
+        </div>
+
+    </div> <!-- container-fluid, tm-container-content -->
+    <!-- END CONTAINER AREA FOR SEARCH RESULTS -->
 
 
 
