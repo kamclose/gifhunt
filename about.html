@@ -124,10 +124,19 @@
         </footer>
         <!-- END FOOTER SECTION -->
 
-
-
-
-
+        <script src="js/plugins.js"></script>
+        <script>
+            $(window).on("load", function () {
+                $('body').addClass('loaded');
+            });
+        </script>
+        <script>
+            $(document).ready(function () {
+                const currentDate = new Date();
+                const currentYear = currentDate.getFullYear();
+                $('.current_year').text(currentYear);
+            })
+        </script>
 
 </body>
 
