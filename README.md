@@ -35,6 +35,9 @@ The navigation menu include options such as "Home," "About Us,".
 Users can click on these menu options to navigate to the corresponding sections of the website.
 
 # Ideas for future improvement
+1 - I would like to add a GIF CATEGORIES section to sort some of the most popular GIFs by their common attributes. 
+2 - Implement a SIGN UP / LOG IN system for tracking, promotion, and data collection. 
+3 - Allow users that are logged in to save FAVORITE GIFs to their profile. 
 
 # Sharing Functionality:
 One improvement could be to enhance the sharing functionality of GifHunt. Currently, users can view GIFs, but we can add share feature to allow user to share their favorite gifs with their followers and friends. 
